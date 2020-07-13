@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Detection</title>
+</head>
+<body>
+	<h1>Product detection</h1>
+	<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="sentFile" />
+    <input type="submit" name="submit" value="Upload" />
+	</form>
+	
+	{% if name|length > 0 %}
+    	<p>Your product is a(n) : {{name}}</p>
+    	<p>Score = {{score}}</p>
+    	<div>
+			<img src="{{file_url}}" alt="image">
+		</div>	    
+	{% endif %}
+
+</body>
+</html>
