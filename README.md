@@ -43,7 +43,8 @@ Product detection simple web apps based on Shopee Code League Competition.
 ## Usage
 * Open localhost:8000
 * Predict some sample product image [here](https://drive.google.com/file/d/1bPZilovvLBj8_4b6RaAYqES2N-MCeRqJ/view?usp=sharing)
-* Get the result
+* Get the result  
+![alt text](https://github.com/fajarwr/product_detection/product_detection.gif)
 
 ## Support
 Reach me out & feel free to discuss!  
